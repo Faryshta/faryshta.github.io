@@ -1,2 +1,204 @@
-<title>Hello World</title
-<h1>Hello World</h1>
+<!doctype html>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Desarrollo Web México</title>
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/foundation/5.4.7/css/foundation.min.css">
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css">
+<style>
+.full-height {
+	height:100%;
+}
+.top-bar,
+.top-bar-section ul li,
+.top-bar-section
+	li:not(.has-form)
+	a:not(.button),
+.top-bar-section
+	li:not(.has-form)
+	a:not(.button):hover
+{
+	background: #6A5A5B;
+}
+.top-bar,
+.top-bar .name,
+.top-bar-section
+	li:not(.has-form)
+	a:not(.button)
+{
+	height:2.5rem;
+	line-height:2.5rem;
+}
+a {
+	color:#89D7ED;
+}
+main {
+	margin:1rem 0;
+}
+.show-focus-only {
+	display:none;
+}
+.xxlarge{
+	font-size:3.5rem;
+}
+</style>
+<header class="row">
+	<div class="large-12 columns">
+		<nav class="top-bar" data-topbar>
+			<div class="top-bar-section">
+				<ul class="title-area">
+					<li class="name">
+						<b><a href="/">Desarrollo Web México</a></b>
+				</ul>
+				<ul class="right">
+					<li>
+						<a href="#">
+							<span class="fi-mail medium">
+								<span class="hide-for-small-only">Contacto</span>
+							</span>
+						</a>
+					<li class"search">
+						<form>
+							<input type="search" placeholder="buscar">
+						</form>
+					<li class="has-button">
+							<button class="fi-magnifying-glass"></button>
+				</ul>
+			</div>
+		</nav> 
+	</div>
+</header>
+<main class="row" data-equalizer>
+	<div class="large-9 medium-6 small-12 columns">
+		<div class="panel callout radius" data-equalizer-watch>
+			<h1>Desarollo Web México</h1>
+			<hr>
+			<p>El equipo de investigación y desarrollo web más inovador de México</h5>
+			<p>Somos un equipo de expertos desarrolladores, diseñadores, estadistas,
+				investigadores y emprendedores que nos enfocamos en brindar a las
+				<b>PYMES</b> servicios a sus necesidades
+		</div>
+	</div>
+	<form class="large-3 medium-6 small-12 columns"
+		data-equalizer-watch id="contacto"
+	>
+		<h3>Contactanos</h3>
+		<p>aquí va una dirección
+		<p><a href="mailto:#">correo</a> telefono</p>
+		<input type="text" name="nombre"	placeholder="Nombre"
+			class="radius" required
+		>
+		<input type="email" name="email" placeholder="Correo Electronico"
+			class="radius" required
+		>
+		<input type="text" name="telefono" placeholder="Telefono" class="radius">
+		<select class="radius show-focus-only">
+			<option>Asunto
+			<option>Cotización
+			<option>Busco Trabajo
+		</select>
+		<textarea class="radius show-focus-only">¿Cuál es su necesidad?</textarea>
+		<input type="button" value="Enviar"
+			class="button radius expand small show-focus-only"
+		>
+	</form>
+</main> 
+<div class="row">
+	<div class="small-12 columns">
+		<ul class="small-block-grid-2 medium-block-grid-4" data-equalizer>
+			<li>
+				<img src="img/search-engines.jpg" alt="Motores de Búsqueda"
+					class="th radius" data-equalizer-watch>
+			<li>
+				<img src="img/social-media.png" alt="Redes Sociales"
+					class="th radius" data-equalizer-watch>
+			<li>
+				<img src="img/comercio-electronico.png" alt="Comercio Electronico"
+					class="th radius" data-equalizer-watch>
+			<li>
+				<img src="img/diseno-web-responsivo.png" alt="Diseño Responsivo"
+					class="th radius" data-equalizer-watch>
+		</ul>
+		<ul class="small-block-grid-2 medium-block-grid-4" data-equalizer>
+			<li data-equalizer-watch>
+				<h6 class="text-center"><b>Posicionamiento Seo</b></h6>
+				<p>Obtén más ganancias posicionando tu página en los
+					primeros resultados
+			<li data-equalizer-watch>
+				<h6 class="text-center"><b>Social Marketing</b></h6>
+				<p>Tus propios clientes serán quienes promocionen tu marca
+			<li data-equalizer-watch>
+				<h6 class="text-center"><b>Comercio Electronico</b></h6>
+				<p>Tus productos disponibles en todo lugar y a toda hora
+			<li data-equalizer-watch>
+				<h6 class="text-center"><b>Diseño Responsivo</b></h6>
+				<p>Listo para todos los dispositivos en el mercado
+		</ul>
+	</div>
+</div>
+<div class="row">
+	<div class="large-12 columns">
+		<div class="row">
+ 			<section class="small-12 medium-6 large-9 columns">
+				<h4>Últimas Noticias</h4>
+				<section >
+					<h5 class="subheader">
+						<a href="/">Motivos para actualizar tu página</a>
+					</h5>
+					<p>Lorem ipsum
+				</section>
+				<hr>
+				<section>
+					<h5 class="subheader">
+						<a href="/">Motivos para actualizar tu página</a>
+					</h5>
+					<p>Lorem ipsum
+				</section>
+				<hr>
+				<section>
+					<h5 class="subheader">
+						<a href="/">Motivos para actualizar tu página</a>
+					</h5>
+					<p>Lorem ipsum
+				</section>
+			</section>
+			<div class="small-12 medium-6 large-3 columns">
+				<h4>Redes Sociales</h4>
+				<hr>
+				<a href="/" class="fi-social-facebook xxlarge"></a>
+				<a href="/" class="fi-social-twitter xxlarge"></a>
+				<a href="/" class="fi-social-google-plus xxlarge"></a>
+				<a href="/" class="fi-social-github xxlarge"></a>
+			</div> 
+		</div>
+	</div>
+</div> 
+<footer class="row">
+	<div class="large-12 columns">
+		<hr>
+		<div class="row">
+			<div class="large-6 columns">
+				<p>Dirección, telefono, correo
+			</div>
+			<div class="large-6 columns">
+				<ul class="inline-list right">
+					<li><a href="#">Aviso de privacidad</a>
+				</ul>
+			</div>
+		</div>
+	</div>
+</footer>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/foundation/5.4.7/js/foundation.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/foundation/5.4.7/js/foundation/foundation.abide.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/foundation/5.4.7/js/foundation/foundation.interchange.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/foundation/5.4.7/js/foundation/foundation.reveal.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/foundation/5.4.7/js/foundation/foundation.topbar.min.js"></script>
+<script>
+$(document).foundation();
+$('#contacto input').focus(function (e) {
+	$('#contacto').height('auto');
+	$('.show-focus-only').show(350, function () {
+		$(window).resize();
+	});
+});
+</script>
